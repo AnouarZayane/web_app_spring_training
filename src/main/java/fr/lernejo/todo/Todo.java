@@ -1,2 +1,5 @@
-package fr.lernejo.todo;public class Todo {
-}
+package fr.lernejo.todo;
+
+public record Todo(String message,String author) {
+
+    }
